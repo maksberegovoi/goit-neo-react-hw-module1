@@ -1,0 +1,49 @@
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+}
+
+.card-stats {
+    list-style: none;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+
+}
+
+.card-stats-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    gap: 2px;
+}
+
+.card-stats-item:not(:last-child) {
+    border-right: 1px solid grey;
+}
+
+.card-avatar {
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: black;
+    width: 65px;
+    margin-top: 5px;
+}
+
+.accent {
+    color: black;
+    font-weight: bold;
+}
