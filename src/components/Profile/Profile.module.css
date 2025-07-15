@@ -3,6 +3,7 @@
     border-radius: 10px;
     font-size: 14px;
     width: 200px;
+    align-self: flex-start;
 }
 
 .card-main {
